@@ -12,7 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "SkyWayCore",
-            targets: ["SkyWayCore", "SkyWaySFUBot", "WebRTC"]),
+            targets: ["SkyWayCore", "WebRTC"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -25,10 +25,6 @@ let package = Package(
             name: "SkyWayCore",
             url: "https://github.com/skyway/ios-sdk/releases/download/1.0.0/SkywayCore.xcframework.zip",
             checksum: "e86d13e1099a6a48b33dccc3e93931e036d982479dd5fbc6af5c94137a4d1b0f"),
-        .binaryTarget(
-            name: "SkyWaySFUBot",
-            url: "https://github.com/skyway/ios-sdk/releases/download/1.0.0/SkyWaySFUBot.xcframework.zip",
-            checksum: "72b1fec6ac742c571ad36575b5b54009b25e3db1d8c911b6a50e3b2a509f8607"),
         .binaryTarget(
             name: "WebRTC",
             url: "https://github.com/skyway/skyway-ios-webrtc-specs/releases/download/104.0.0/WebRTC.xcframework.zip",

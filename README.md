@@ -1,6 +1,6 @@
 # SkyWay iOS Core SDK for Swift Package 
 
-Core ライブラリを単体でインストールするためのリポジトリ
+Core ライブラリのSwift Package Manager管理リポジトリ
 
 iOS SDK リポジトリ
 
