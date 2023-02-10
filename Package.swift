@@ -23,8 +23,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "SkyWayCore",
-            url: "https://github.com/skyway/ios-sdk/releases/download/1.0.0/SkywayCore.xcframework.zip",
-            checksum: "e86d13e1099a6a48b33dccc3e93931e036d982479dd5fbc6af5c94137a4d1b0f"),
+            url: "https://github.com/skyway/ios-sdk/releases/download/1.1.0/SkywayCore.xcframework.zip",
+            checksum: "b485d79c85be598126dee643f2ffbfe3a39ec2230f57b2115cc1c004562df0bc"),
         .binaryTarget(
             name: "WebRTC",
             url: "https://github.com/skyway/skyway-ios-webrtc-specs/releases/download/104.0.0/WebRTC.xcframework.zip",
